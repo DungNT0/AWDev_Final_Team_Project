@@ -8,10 +8,10 @@ const Navbar = () => {
         <div class="Navbar" style={{ zIndex: '9999' }}>
             <div id="bigborder">
                 <div class="sidebar">
-                    <div id="logo">LOGO</div>
+                    <img id="qm_logo" src={require("../assets/img/qm_logo.png")} alt="img"/>
 
                     <div id="profile_group">
-                        <i class="bi bi-person-circle"></i>
+                        <i class="bi bi-emoji-smile"></i>
                         <div id="username">Đặng Việt</div>
                         <div id="role">ADMIN</div>
                     </div>
