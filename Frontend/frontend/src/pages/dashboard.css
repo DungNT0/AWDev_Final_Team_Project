@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../assets/static/Inter-Regular.ttf");
+
+}
+
+.Dashboard {
+    background-color: #1E1E1E;
+    width: 100%;
+    height: 1000px;
+}
+
+#dboard_s1_banner {
+    background-image: url("../assets/img/dashboard_banner.png");
+    width: 100%;
+    height: 337px;
+    background-repeat: no-repeat;
+    background-size: 1040px;
+    background-position: 270px 25px;
+
+}
+
+#dboard_s1_banner_txt {
+    font-family: Inter-Bold;
+    font-size: 60px;
+    margin-left: 290px;
+    padding-top: 31px;
+    color: white;
+}
+
+#dboard_s2 {
+    margin-left: 245px;
+    margin-top: 25px;
+}
+
+.dboard_s2_roles {
+    background-image: url("../assets/img/dboard_roles_bckgrnd.png");
+    background-repeat: no-repeat;
+    height: 147px;
+    width: 22.3%;
+    background-size: 253px;
+    margin-left: 24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.dboard_s2_personels {
+    font-family: Inter-Bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 34px;
+}
+
+#dboard_s3_ntboard {
+    margin-left: 270px;
+    background-color: white;
+    width: 47%;
+    height: 300px;
+    border-top: solid 10px #2988C0;
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#dboard_s3_ntboard_txt {
+    font-family: Inter-Bold;
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.dboard_ntboard_img {
+    height: 55%;
+    margin-left: 16px;
+    margin-top: 35px;
+}
+
+#dboard_s3_on_users {
+    margin-left: 40px;
+    background-color: white;
+    width: 28%;
+    height: 300px;
+    border-top: solid 10px #2988C0;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+#dboard_s3_on_users_header {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-family: Inter-Bold;
+    font-size: 25px;
+}
+
+#dboard_s3_on_users_time {
+    margin-left: 40px;
+    font-family: Inter-Regular;
+    font-size: 20px;
+}
+
+#dboard_s3_on_users_row1 {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.dboard_s3_on_user_icon {
+    display: inline-block;
+    vertical-align: top;
+    height: 35px;
+}
+
+#dboard_s3_on_username {
+    font-family: Inter-Bold;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#dboard_s3_on_user_role {
+    border: none;
+    background-color: #1E1E1E;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 75px;
+    font-family: Inter-Bold;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-top: 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.bi-envelope {
+    font-size: 25px;
+}
