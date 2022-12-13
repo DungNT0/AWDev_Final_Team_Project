@@ -48,11 +48,11 @@ const Dashboard = () => {
                         NOTICEBOARD
                     </div>
 
-                    <img class="dboard_ntboard_img" src={require("../assets/img/dboard_nboard_img1.png")} alt="img" />
+                    <img class="dboard_ntboard_img" src={require("../../assets/img/dboard_nboard_img1.png")} alt="img" />
 
-                    <img class="dboard_ntboard_img" src={require("../assets/img/dboard_nboard_img2.png")} alt="img" />
+                    <img class="dboard_ntboard_img" src={require("../../assets/img/dboard_nboard_img2.png")} alt="img" />
 
-                    <img class="dboard_ntboard_img" src={require("../assets/img/dboard_nboard_img3.png")} alt="img" />
+                    <img class="dboard_ntboard_img" src={require("../../assets/img/dboard_nboard_img3.png")} alt="img" />
 
                 </div>
 
@@ -66,7 +66,7 @@ const Dashboard = () => {
                     </div>
 
                     <div id="dboard_s3_on_users_row1">
-                        <img class="dboard_s3_on_user_icon" src={require("../assets/img/user_online_icon.png")} alt="img" />
+                        <img class="dboard_s3_on_user_icon" src={require("../../assets/img/user_online_icon.png")} alt="img" />
 
                         <div id="dboard_s3_on_username">
                             Đặng Việt

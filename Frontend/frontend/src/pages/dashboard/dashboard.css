@@ -1,12 +1,12 @@
 @font-face {
     font-family: Inter-Bold;
-    src: url("../assets/static/Inter-Bold.ttf");
+    src: url("../../assets/static/Inter-Bold.ttf");
 
 }
 
 @font-face {
     font-family: Inter-Regular;
-    src: url("../assets/static/Inter-Regular.ttf");
+    src: url("../../assets/static/Inter-Regular.ttf");
 
 }
 
@@ -17,7 +17,7 @@
 }
 
 #dboard_s1_banner {
-    background-image: url("../assets/img/dashboard_banner.png");
+    background-image: url("../../assets/img/dashboard_banner.png");
     width: 100%;
     height: 337px;
     background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 }
 
 .dboard_s2_roles {
-    background-image: url("../assets/img/dboard_roles_bckgrnd.png");
+    background-image: url("../../assets/img/dboard_roles_bckgrnd.png");
     background-repeat: no-repeat;
     height: 147px;
     width: 22.3%;
