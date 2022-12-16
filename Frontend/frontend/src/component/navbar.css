@@ -68,7 +68,7 @@
     border: none;
     width: 100%;
 }
-button .bi {
+button .nav_bi {
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -95,10 +95,11 @@ button .bi {
 }
 
 /* Links on mouse-over */
-.sidebar button:hover:not(:focus) {
+.sidebar button:hover {
     background-color: #555;
     color: white;
 }
+
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {

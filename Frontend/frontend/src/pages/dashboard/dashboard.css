@@ -11,7 +11,7 @@
 }
 
 .Dashboard {
-    background-color: #1E1E1E;
+    background-color: white;
     width: 100%;
     height: 1000px;
 }
@@ -145,3 +145,12 @@
 .bi-envelope {
     font-size: 25px;
 }
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 1700px) {
+    
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+/* @media screen and (max-width: 400px) {
+} */

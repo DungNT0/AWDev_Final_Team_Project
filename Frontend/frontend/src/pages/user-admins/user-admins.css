@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../../assets/static/Inter-Regular.ttf");
+
+}
+
+.UserAdmins {
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+
+#ua_s1 {
+    margin-left: 270px;
+}
+
+.ua_s1_user_groups {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+    background-color: white;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.ua_s1_user_page_links {
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+}
+
+.ua_s1_bi.bi-person {
+    font-size: 40px;
+}
+
+.ua_border {
+    border-bottom: #B1B1B1 solid 2px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+.ua_s1_user_page_links:focus {
+    color: black;
+}
+
+#ua_s2 {
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+#ua_s3 {
+    margin-left: 270px;
+    margin-top: 140px;
+    border-top: black solid 5px;
+    width: 78%;
+    border-left: #B1B1B1 1px solid;
+    border-right: #B1B1B1 1px solid;
+    border-bottom: #B1B1B1 1px solid;
+}
+
+#ua_s3 tr {
+    border: none;
+}
+
+#ua_s3 .row {
+    padding-top: 40px;
+    border-top: #B1B1B1 1px solid;
+}
+
+#ua_s3 th {
+    border: none;
+}
