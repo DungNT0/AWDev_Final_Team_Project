@@ -67,12 +67,12 @@ const StudentsRegister = () => {
 
                 <div>
                     <label class="sr_s3_label">Class</label> 
-                    <input class="sr_s3_input" type="text" />
+                    <select class="sr_s3_input" type="text"></select>
                 </div>
 
                 <div>
                     <label class="sr_s3_label">Section</label> 
-                    <input class="sr_s3_input" type="text" />
+                    <select class="sr_s3_input" type="text"></select>
                 </div>
 
                 <div>
