@@ -7,7 +7,7 @@ const Navbar = () => {
         <div class="Navbar" style={{ zIndex: '9999' }}>
             <div id="nav_bigborder">
                 <div class="sidebar">
-                    <img id="qm_logo" src={require("../assets/img/qm_logo.png")} alt="img" />
+                    <img id="qm_logo" src={require("../../assets/img/qm_logo.png")} alt="img" />
 
                     <div id="profile_group">
                         <i class="nav_bi bi-emoji-smile"></i>

@@ -1,12 +1,12 @@
 @font-face {
     font-family: Inter-Bold;
-    src: url("../assets/static/Inter-Bold.ttf");
+    src: url("../../assets/static/Inter-Bold.ttf");
 
 }
 
 @font-face {
     font-family: Inter-Regular;
-    src: url("../assets/static/Inter-Regular.ttf");
+    src: url("../../assets/static/Inter-Regular.ttf");
 
 }
 
@@ -62,7 +62,6 @@
     background-color: #1E1E1E;
     color: white;
     text-decoration: none;
-
     text-align: start;
     padding: 0px;
     border: none;

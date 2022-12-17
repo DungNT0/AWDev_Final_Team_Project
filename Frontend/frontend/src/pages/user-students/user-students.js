@@ -1,19 +1,31 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css"
+import "./user-students.css";
 import UserNavbar from "../../component/user-navbar/user-navbar";
-import "./user-admins.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const UserAdmins = () => {
+const UserStudents = () => {
     return (
-        <div class="UserAdmins">
-            <UserNavbar/>
-            <div id="ua_s3">
+        <div class="UserStudents">
+            <UserNavbar />
+            <div id="us_s2">
+                <div class="us_s1_user_groups">
+                    <a class="us_s1_user_page_links" href="/user-students">STUDENTS </a>
+                    <div class="us_border"></div>
+                </div>
+
+                <div class="us_s1_user_groups">
+                    <a class="us_s1_user_page_links" href="/students-register">REGISTER</a>
+                    <div class="us_border"></div>
+                </div>
+            </div>
+
+            <div id="us_s3">
                 <div class="container ">
                     <div className="crud p-3 mb-5 mt-5 bg-body">
                         <div class="row">
                             <div class="table-responsive ">
-                                <table class="table table-striped table-hover table-bordered">
+                                <table id="students_dttable" class="table table-striped table-hover table-bordered">
                                     <thead>
                                         <tr>
                                             <th>FIRST NAME</th>
@@ -30,9 +42,9 @@ const UserAdmins = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };
 
-export default UserAdmins;
+export default UserStudents;
