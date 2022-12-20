@@ -76,7 +76,7 @@ const TeachersNew = () => {
                     <input id="tn_s3_upload_photo" name="photo" class="tn_s3_input" type="file" />
                 </div>
 
-                <button id="tn_s3_save_btn" type="button">Save</button>
+                <button id="tn_s3_save_btn" type="submit">Save</button>
             </div>
 
         </div>

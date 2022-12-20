@@ -11,12 +11,12 @@ const StudentsRegister = () => {
             <UserNavbar/>
             <div id="sr_s2">
                 <div class="sr_s1_user_groups">
-                    <a class="sr_s1_user_page_links" href="/user-students">TEACHERS </a>
+                    <a class="sr_s1_user_page_links" href="/user-students">STUDENTS </a>
                     <div class="sr_border"></div>
                 </div>
 
                 <div class="sr_s1_user_groups">
-                    <a class="sr_s1_user_page_links" href="/students-register">NEW</a>
+                    <a class="sr_s1_user_page_links" href="/students-register">REGISTER</a>
                     <div class="sr_border"></div>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const StudentsRegister = () => {
                     <input id="sr_s3_upload_photo" name="photo" class="sr_s3_input" type="file" />
                 </div>
 
-                <button id="sr_s3_save_bsr" type="button">Save</button>
+                <button id="sr_s3_save_bsr" type="submit">Save</button>
             </div>
 
         </div>

@@ -146,11 +146,414 @@
     font-size: 25px;
 }
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
-@media screen and (max-width: 1700px) {
-    
+@media screen and (min-width: 1400px) {
+    .Dashboard {
+        background-color: white;
+        width: 100%;
+        height: 1400px;
+    }
+
+    #dboard_s1_banner {
+        background-image: url("../../assets/img/dashboard_banner.png");
+        width: 100%;
+        height: 378px;
+        background-repeat: no-repeat;
+        background-size: 1186px;
+        background-position: 270px 25px;
+
+    }
+
+    #dboard_s1_banner_txt {
+        font-family: Inter-Bold;
+        font-size: 56px;
+        margin-left: 290px;
+        padding-top: 31px;
+        color: white;
+    }
+
+    #dboard_s2 {
+        margin-left: 245px;
+        margin-top: 25px;
+    }
+
+    .dboard_s2_roles {
+        background-image: url("../../assets/img/dboard_roles_bckgrnd.png");
+        background-repeat: no-repeat;
+        height: 165px;
+        width: 22.4%;
+        background-size: 289px;
+        margin-left: 26px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .dboard_s2_personels {
+        font-family: Inter-Bold;
+        font-size: 35px;
+        color: white;
+        text-align: center;
+        display: block;
+        padding-top: 35px;
+    }
+
+    #dboard_s3_ntboard {
+        margin-left: 270px;
+        background-color: white;
+        width: 48%;
+        height: 300px;
+        border-top: solid 10px #2988C0;
+        margin-top: 25px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #dboard_s3_ntboard_txt {
+        font-family: Inter-Bold;
+        font-size: 30px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .dboard_ntboard_img {
+        height: 65%;
+        margin-left: 16px;
+        margin-top: 35px;
+    }
+
+    #dboard_s3_on_users {
+        margin-left: 40px;
+        background-color: white;
+        width: 29.3%;
+        height: 300px;
+        border-top: solid 10px #2988C0;
+        margin-top: 25px;
+        display: inline-block;
+    }
+
+    #dboard_s3_on_users_header {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-family: Inter-Bold;
+        font-size: 30px;
+    }
+
+    #dboard_s3_on_users_time {
+        margin-left: 40px;
+        font-family: Inter-Regular;
+        font-size: 25px;
+    }
+
+    #dboard_s3_on_users_row1 {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .dboard_s3_on_user_icon {
+        display: inline-block;
+        vertical-align: top;
+        height: 40px;
+    }
+
+    #dboard_s3_on_username {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #dboard_s3_on_user_role {
+        border: none;
+        background-color: #1E1E1E;
+        color: white;
+        border-radius: 20px;
+        height: 35px;
+        width: 75px;
+        font-family: Inter-Bold;
+        font-size: 15px;
+        margin-right: 15px;
+        margin-top: 2px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .bi-envelope {
+        font-size: 25px;
+    }
 }
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
-/* @media screen and (max-width: 400px) {
-} */
+
+@media screen and (min-width: 1700px) {
+    .Dashboard {
+        background-color: white;
+        width: 100%;
+        height: 1400px;
+    }
+
+    #dboard_s1_banner {
+        background-image: url("../../assets/img/dashboard_banner.png");
+        width: 100%;
+        height: 436px;
+        background-repeat: no-repeat;
+        background-size: 1387px;
+        background-position: 370px 25px;
+
+    }
+
+    #dboard_s1_banner_txt {
+        font-family: Inter-Bold;
+        font-size: 65px;
+        margin-left: 390px;
+        padding-top: 31px;
+        color: white;
+    }
+
+    #dboard_s2 {
+        margin-left: 345px;
+        margin-top: 25px;
+    }
+
+    .dboard_s2_roles {
+        background-image: url("../../assets/img/dboard_roles_bckgrnd.png");
+        background-repeat: no-repeat;
+        height: 221px;
+        width: 22.9%;
+        background-size: 343px;
+        margin-left: 26px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .dboard_s2_personels {
+        font-family: Inter-Bold;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        display: block;
+        padding-top: 37px;
+    }
+
+    #dboard_s3_ntboard {
+        margin-left: 370px;
+        background-color: white;
+        width: 48%;
+        height: 300px;
+        border-top: solid 10px #2988C0;
+        margin-top: 25px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #dboard_s3_ntboard_txt {
+        font-family: Inter-Bold;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .dboard_ntboard_img {
+        height: 79%;
+        margin-left: 16px;
+        margin-top: 35px;
+    }
+
+    #dboard_s3_on_users {
+        margin-left: 40px;
+        background-color: white;
+        width: 27.9%;
+        height: 300px;
+        border-top: solid 10px #2988C0;
+        margin-top: 25px;
+        display: inline-block;
+    }
+
+    #dboard_s3_on_users_header {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-family: Inter-Bold;
+        font-size: 35px;
+    }
+
+    #dboard_s3_on_users_time {
+        margin-left: 40px;
+        font-family: Inter-Regular;
+        font-size: 30px;
+    }
+
+    #dboard_s3_on_users_row1 {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .dboard_s3_on_user_icon {
+        display: inline-block;
+        vertical-align: top;
+        height: 45px;
+    }
+
+    #dboard_s3_on_username {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #dboard_s3_on_user_role {
+        border: none;
+        background-color: #1E1E1E;
+        color: white;
+        border-radius: 20px;
+        height: 42px;
+        width: 85px;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 2px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .bi-envelope {
+        font-size: 35px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .Dashboard {
+        background-color: white;
+        width: 100%;
+        height: 1400px;
+    }
+
+    #dboard_s1_banner {
+        background-image: url("../../assets/img/dashboard_banner.png");
+        width: 100%;
+        height: 503px;
+        background-repeat: no-repeat;
+        background-size: 1610px;
+        background-position: 370px 25px;
+
+    }
+
+    #dboard_s1_banner_txt {
+        font-family: Inter-Bold;
+        font-size: 76px;
+        margin-left: 390px;
+        padding-top: 31px;
+        color: white;
+    }
+
+    #dboard_s2 {
+        margin-left: 345px;
+        margin-top: 25px;
+    }
+
+    .dboard_s2_roles {
+        background-image: url("../../assets/img/dboard_roles_bckgrnd.png");
+        background-repeat: no-repeat;
+        height: 221px;
+        width: 23.3%;
+        background-size: 390px;
+        margin-left: 26px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .dboard_s2_personels {
+        font-family: Inter-Bold;
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        display: block;
+        padding-top: 50px;
+    }
+
+    #dboard_s3_ntboard {
+        margin-left: 370px;
+        background-color: white;
+        width: 48%;
+        height: 300px;
+        border-top: solid 10px #2988C0;
+        margin-top: 25px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #dboard_s3_ntboard_txt {
+        font-family: Inter-Bold;
+        font-size: 35px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .dboard_ntboard_img {
+        height: 88%;
+        margin-left: 16px;
+        margin-top: 35px;
+    }
+
+    #dboard_s3_on_users {
+        margin-left: 40px;
+        background-color: white;
+        width: 30.4%;
+        height: 300px;
+        border-top: solid 10px #2988C0;
+        margin-top: 25px;
+        display: inline-block;
+    }
+
+    #dboard_s3_on_users_header {
+        margin-top: 30px;
+        margin-left: 40px;
+        font-family: Inter-Bold;
+        font-size: 35px;
+    }
+
+    #dboard_s3_on_users_time {
+        margin-left: 40px;
+        font-family: Inter-Regular;
+        font-size: 30px;
+    }
+
+    #dboard_s3_on_users_row1 {
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+
+    .dboard_s3_on_user_icon {
+        display: inline-block;
+        vertical-align: top;
+        height: 45px;
+    }
+
+    #dboard_s3_on_username {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #dboard_s3_on_user_role {
+        border: none;
+        background-color: #1E1E1E;
+        color: white;
+        border-radius: 20px;
+        height: 42px;
+        width: 85px;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        margin-right: 15px;
+        margin-top: 2px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .bi-envelope {
+        font-size: 35px;
+    }
+}
