@@ -1,6 +1,11 @@
 import './App.css';
 import Navbar from './component/navbar/navbar';
-import UserNavbar from './component/user-navbar/user-navbar';
+import Schedules from './pages/schedules-class-routine/schedules-class-routine';
+import SchedulesTeacher from './pages/schedules-teacher-routine/schedules-teacher-routine';
+import ClassSectionB from './pages/schedules-class-routine/class-section-b/class-section-b';
+import ClassSectionC from './pages/schedules-class-routine/class-section-c/class-section-c';
+import TeacherSectionB from './pages/schedules-teacher-routine/teacher-section-b/teacher-section-b';
+import TeacherSectionC from './pages/schedules-teacher-routine/teacher-section-c/teacher-section-c';
 import StudentsRegister from './pages/user-students/students-new/students-register';
 import Dashboard from './pages/dashboard/dashboard';
 import UserAdmins from './pages/user-admins/user-admins';
@@ -21,6 +26,13 @@ function App() {
           <Route path="/user-students" exact element={<UserStudents />}/>
           <Route path="/teachers-new" exact element={<TeachersNew />}/>
           <Route path="/students-register" exact element={<StudentsRegister />}/>
+          <Route path="/schedules-class-routine" exact element={<Schedules />}/>
+          <Route path="/schedules-teacher-routine" exact element={<SchedulesTeacher />}/>
+          <Route path="/class-section-b" exact element={<ClassSectionB />}/>
+          <Route path="/class-section-c" exact element={<ClassSectionC />}/>
+          <Route path="/teacher-section-b" exact element={<TeacherSectionB />}/>
+          <Route path="/teacher-section-c" exact element={<TeacherSectionC />}/>
+
         </Routes>
       </BrowserRouter>
     </div>

@@ -41,10 +41,17 @@
     margin-top: 20px;
     width: 140px;
 }
+/* .un_s1_user_page_links a:not(:target) {
+    color: #B1B1B1;
+} */
 
 .un_s1_user_page_links:focus {
     color: black;
 }
+
+/* .un_s1_user_page_links a:target {
+    color: black;
+} */
 
 @media screen and (min-width: 1700px) {
     #un_s1 {

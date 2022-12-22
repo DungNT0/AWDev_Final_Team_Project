@@ -40,7 +40,7 @@ const Navbar = () => {
                     </button>
 
                     <button type="button">
-                        <a href="#"> <i class="nav_bi bi-calendar3"></i> Schedules</a>
+                        <a href="/schedules-class-routine"> <i class="nav_bi bi-calendar3"></i> Schedules</a>
                     </button>
                 </div>
             </div>
