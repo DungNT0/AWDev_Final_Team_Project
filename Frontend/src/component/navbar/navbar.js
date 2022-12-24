@@ -36,7 +36,7 @@ const Navbar = () => {
                     </button>
 
                     <button type="button">
-                        <a href="#"> <i class="nav_bi bi-calendar-check"></i> Attendance</a>
+                        <a href="/attendance-students"> <i class="nav_bi bi-calendar-check"></i> Attendance</a>
                     </button>
 
                     <button type="button">
