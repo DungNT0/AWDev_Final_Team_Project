@@ -24,15 +24,11 @@ const Navbar = () => {
                     </button>
 
                     <button type="button">
-                        <a href="#"> <i class="nav_bi bi-person-vcard"></i> Information</a>
-                    </button>
-
-                    <button type="button">
                         <a href="#"> <i class="nav_bi bi-clipboard-data"></i> Accounting</a>
                     </button>
 
                     <button type="button">
-                        <a href="#"> <i class="nav_bi bi-book"></i> Classrooms</a>
+                        <a href="/classrooms"> <i class="nav_bi bi-book"></i> Classrooms</a>
                     </button>
 
                     <button type="button">

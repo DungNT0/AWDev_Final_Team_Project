@@ -8,6 +8,7 @@ import TeacherSectionB from './pages/schedules-teacher-routine/teacher-section-b
 import TeacherSectionC from './pages/schedules-teacher-routine/teacher-section-c/teacher-section-c';
 import AttendanceStudents from './pages/attendance-students/attendance-students';
 import AttendanceTeachers from './pages/attendance-teachers/attendance-teachers';
+import Classrooms from './pages/classrooms/classrooms';
 import StudentsRegister from './pages/user-students/students-new/students-register';
 import Dashboard from './pages/dashboard/dashboard';
 import UserAdmins from './pages/user-admins/user-admins';
@@ -36,6 +37,8 @@ function App() {
           <Route path="/teacher-section-c" exact element={<TeacherSectionC />}/>
           <Route path="/attendance-students" exact element={<AttendanceStudents />}/>
           <Route path="/attendance-teachers" exact element={<AttendanceTeachers />}/>
+          <Route path="/classrooms" exact element={<Classrooms />}/>
+
         </Routes>
       </BrowserRouter>
     </div>
