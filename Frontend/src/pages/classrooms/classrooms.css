@@ -133,7 +133,7 @@
     text-align: center;
     text-decoration: none;
     font-family: Inter-Bold;
-    color: #B1B1B1;
+    color: black;
     background-color: white;
     padding: 0px;
     margin-top: 20px;
@@ -142,7 +142,7 @@
 .clr_s1_user_page_links {
     text-decoration: none;
     font-family: Inter-Bold;
-    color: #B1B1B1;
+    color: black;
 }
 
 #clr_s2_add_btn {
@@ -246,7 +246,7 @@
 }
 
 @media screen and (min-width: 1700px) {
-    .AttendanceTeachers {
+    .Classrooms {
         background-color: white;
         width: 100%;
         height: 1000px;
@@ -256,23 +256,56 @@
         margin-left: 370px;
     }
     
+    .clr_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: black;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .clr_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .clr_s1_bi.bi-building {
+        font-size: 45px;
+    }
+    
+    .clr_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    .clr_border {
+        border-bottom: black solid 2px;
+        margin-top: 20px;
+        width: 155px;
+    }
+    
     #clr_s1_class_header {
         font-family: Inter-Bold;
-        font-size: 13px;
+        font-size: 16px;
         color: #B1B1B1;
         margin-top: 30px;
     }
     
     #clr_s1_subjects_header {
         font-family: Inter-Bold;
-        font-size: 13px;
+        font-size: 16px;
         color: #B1B1B1;
         margin-top: 30px;
     }
     
     #clr_s1_date_header {
         font-family: Inter-Bold;
-        font-size: 13px;
+        font-size: 16px;
         color: #B1B1B1;
         margin-top: 30px;
     }
@@ -302,8 +335,8 @@
         font-family: Inter-Bold;
         font-size: 20px;
         color: #B1B1B1;
-        width: 370px;
-        height: 60px;
+        width: 400px;
+        height: 40px;
         border: #B1B1B1 solid 1px;
         border-radius: 5px;
         padding-left: 10px;
@@ -313,8 +346,8 @@
         font-family: Inter-Bold;
         font-size: 20px;
         color: #B1B1B1;
-        width: 270px;
-        height: 60px;
+        width: 300px;
+        height: 40px;
         border: #B1B1B1 solid 1px;
         border-radius: 5px;
         padding-left: 10px;
@@ -324,8 +357,8 @@
         font-family: Inter-Bold;
         font-size: 20px;
         color: #B1B1B1;
-        width: 270px;
-        height: 60px;
+        width: 300px;
+        height: 40px;
         border: #B1B1B1 solid 1px;
         border-radius: 5px;
         padding-left: 10px;
@@ -337,7 +370,7 @@
         text-align: center;
         text-decoration: none;
         font-family: Inter-Bold;
-        color: #B1B1B1;
+        color: black;
         background-color: white;
         padding: 0px;
         margin-top: 20px;
@@ -346,22 +379,9 @@
     .clr_s1_user_page_links {
         text-decoration: none;
         font-family: Inter-Bold;
-        color: #B1B1B1;
+        color: black;
     }
-    
-    #clr_s1_view_btn {
-        margin-top: 60px;
-        background-color: #001C3E;
-        border: #001C3E solid 1px;
-        border-radius: 20px;
-        width: 100px;
-        height: 60px;
-        font-family: Inter-Bold;
-        font-size: 20px;
-        color: white;
-        margin-left: 20px;
-    }
-    
+
     #clr_s2 {
         margin-left: 390px;
         border-top: black solid 4px;
@@ -369,10 +389,60 @@
         width: 75%;
     }
     
+    #clr_s2_add_btn {
+        margin-top: 60px;
+        background-color: #001C3E;
+        border: #001C3E solid 1px;
+        border-radius: 20px;
+        width: 90px;
+        height: 40px;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #clr_s2_add_btn:focus {
+        margin-top: 60px;
+        background-color: #001C3E;
+        border: #001C3E solid 1px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 200px;
+        height: 50px;
+        font-family: Inter-Bold;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #clr_s2_add_btn:not(:focus)~.clr_s2_add_group {
+        display: none;
+    }
+    
+    #clr_s2_add_btn:focus~
+    .clr_s2_add_group {
+        margin-left: 740px;
+        font-family: Inter-Regular;
+        font-size: 18px;
+        color: #919095;
+        background-color: #001C3E;
+        width: 200px;
+        padding: 20px 20px 30px 20px;
+        position: absolute;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .clr_s2_add_input {
+        width: 160px;
+    }
+    
     #clr_s2_header {
         font-family: Inter-Bold;
         color: black;
-        font-size: 25px;
+        font-size: 30px;
         margin-top: 40px;
         margin-left: 60px;
     }
@@ -380,58 +450,83 @@
     .clr_s2_th {
         text-align: center;
         font-family: Inter-Bold;
-        font-size: 16px;
+        font-size: 18px;
         color: black;
         padding-bottom: 10px;
-    }
-    
-    .clr_s2_th_row {
+        width: 305px;
         border-bottom: #B1B1B1 solid 2px;
     }
     
     .clr_s2_name {
-        width: 171px;
         margin-top: 4px;
-        margin-left: 89px;
     }
-    #clr_s2_status_th {
-        float: right;
-        margin-right: 110px;
-    }
-    .clr_s2_dtable_bi.bi-person-circle::before {
-        margin-right: 10px;
+    
+    .clr_s2_bi.bi-trash::before {
         margin-top: 4px;
-        font-size: 30px;
-        padding-left: 55px;
+        font-size: 20px;
+        float: none;
+        color: red;
     }
+    .clr_s2_bi.bi-trash:hover {
+        cursor: pointer;
+    }
+    
     .clr_s2_dtable_td {
         font-family: Inter-Bold;
         font-size: 20px;
         padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        border-bottom: #B1B1B1 solid 1px;
     }
     
-    .clr_s2_absent_status_group {
-        margin-top: 4px;
-        padding-left: 615px;
-        padding-right: 17px;
-    
-    }
-    
-    .clr_s2_rdo_input {
-        margin-right: 5px;
-        margin-left: 20px;
+    .clr_s2_dt_row {
+        border-bottom: #B1B1B1 solid 1px;
     }
 }
 
 @media screen and (min-width: 1920px) {
-    .AttendanceStudents {
+    .Classrooms {
         background-color: white;
         width: 100%;
-        height: 1000px;
+        height: 1200px;
     }
     
     #clr_s1 {
         margin-left: 370px;
+    }
+    
+    .clr_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: black;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .clr_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: black;
+    }
+    
+    .clr_s1_bi.bi-building {
+        font-size: 60px;
+    }
+    
+    .clr_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    .clr_border {
+        border-bottom: black solid 2px;
+        margin-top: 20px;
+        width: 185px;
     }
     
     #clr_s1_class_header {
@@ -480,8 +575,8 @@
         font-family: Inter-Bold;
         font-size: 25px;
         color: #B1B1B1;
-        width: 450px;
-        height: 70px;
+        width: 550px;
+        height: 50px;
         border: #B1B1B1 solid 1px;
         border-radius: 5px;
         padding-left: 10px;
@@ -491,8 +586,8 @@
         font-family: Inter-Bold;
         font-size: 25px;
         color: #B1B1B1;
-        width: 350px;
-        height: 70px;
+        width: 450px;
+        height: 50px;
         border: #B1B1B1 solid 1px;
         border-radius: 5px;
         padding-left: 10px;
@@ -502,8 +597,8 @@
         font-family: Inter-Bold;
         font-size: 25px;
         color: #B1B1B1;
-        width: 350px;
-        height: 70px;
+        width: 450px;
+        height: 50px;
         border: #B1B1B1 solid 1px;
         border-radius: 5px;
         padding-left: 10px;
@@ -515,7 +610,7 @@
         text-align: center;
         text-decoration: none;
         font-family: Inter-Bold;
-        color: #B1B1B1;
+        color: black;
         background-color: white;
         padding: 0px;
         margin-top: 20px;
@@ -524,22 +619,9 @@
     .clr_s1_user_page_links {
         text-decoration: none;
         font-family: Inter-Bold;
-        color: #B1B1B1;
+        color: black;
     }
-    
-    #clr_s1_view_btn {
-        margin-top: 68px;
-        background-color: #001C3E;
-        border: #001C3E solid 1px;
-        border-radius: 20px;
-        width: 100px;
-        height: 70px;
-        font-family: Inter-Bold;
-        font-size: 25px;
-        color: white;
-        margin-left: 20px;
-    }
-    
+
     #clr_s2 {
         margin-left: 390px;
         border-top: black solid 4px;
@@ -547,10 +629,60 @@
         width: 78%;
     }
     
+    #clr_s2_add_btn {
+        margin-top: 70px;
+        background-color: #001C3E;
+        border: #001C3E solid 1px;
+        border-radius: 20px;
+        width: 110px;
+        height: 50px;
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #clr_s2_add_btn:focus {
+        margin-top: 70px;
+        background-color: #001C3E;
+        border: #001C3E solid 1px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        width: 220px;
+        height: 50px;
+        font-family: Inter-Bold;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #clr_s2_add_btn:not(:focus)~.clr_s2_add_group {
+        display: none;
+    }
+    
+    #clr_s2_add_btn:focus~
+    .clr_s2_add_group {
+        margin-left: 1040px;
+        font-family: Inter-Regular;
+        font-size: 22px;
+        color: #919095;
+        background-color: #001C3E;
+        width: 220px;
+        padding: 20px 20px 30px 20px;
+        position: absolute;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .clr_s2_add_input {
+        width: 180px;
+    }
+    
     #clr_s2_header {
         font-family: Inter-Bold;
         color: black;
-        font-size: 25px;
+        font-size: 35px;
         margin-top: 40px;
         margin-left: 60px;
     }
@@ -558,45 +690,37 @@
     .clr_s2_th {
         text-align: center;
         font-family: Inter-Bold;
-        font-size: 20px;
+        font-size: 22px;
         color: black;
         padding-bottom: 10px;
-    }
-    
-    .clr_s2_th_row {
+        width: 383px;
         border-bottom: #B1B1B1 solid 2px;
     }
     
     .clr_s2_name {
-        width: 217px;
         margin-top: 4px;
-        margin-left: 89px;
     }
-    #clr_s2_status_th {
-        float: right;
-        margin-right: 110px;
-    }
-    .clr_s2_dtable_bi.bi-person-circle::before {
-        margin-right: 10px;
+    
+    .clr_s2_bi.bi-trash::before {
         margin-top: 4px;
-        font-size: 35px;
-        padding-left: 55px;
+        font-size: 25px;
+        float: none;
+        color: red;
     }
+    .clr_s2_bi.bi-trash:hover {
+        cursor: pointer;
+    }
+    
     .clr_s2_dtable_td {
         font-family: Inter-Bold;
         font-size: 25px;
         padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        border-bottom: #B1B1B1 solid 1px;
     }
     
-    .clr_s2_absent_status_group {
-        margin-top: 4px;
-        padding-left: 835px;
-        padding-right: 17px;
-    
-    }
-    
-    .clr_s2_rdo_input {
-        margin-right: 5px;
-        margin-left: 20px;
+    .clr_s2_dt_row {
+        border-bottom: #B1B1B1 solid 1px;
     }
 }

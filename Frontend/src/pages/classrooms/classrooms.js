@@ -5,9 +5,7 @@ import "./classrooms.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const Classrooms = () => {
-
     return (
-        
         <div class="Classrooms">
             <div id="clr_s1">
                 <div id="clr_s1_navbar">
