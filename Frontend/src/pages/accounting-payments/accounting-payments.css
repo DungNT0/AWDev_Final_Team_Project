@@ -1,0 +1,354 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../../assets/static/Inter-Regular.ttf");
+
+}
+
+.AccountingPayments {
+    background-color: white;
+    width: 100%;
+    height: 1150px;
+}
+
+#ap_s1 {
+    margin-left: 270px;
+    margin-top: 50px;
+}
+
+#ap_s1_header {
+    margin-left: 40px;
+    margin-top: 40px;
+    font-family: Inter-Bold;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#ap_s1_search_bar {
+    /* display: inline-block; */
+    margin-top: 40px;
+    margin-right: 70px;
+    float: right;
+}
+
+.ap_s1_input {
+    margin-left: 10px;
+    border-radius: 5px;
+    border: #B1B1B1 solid 1px;
+}
+
+.ap_s1_input::placeholder {
+    font-family: Inter-Bold;
+    font-size: 16px;
+    color: #B1B1B1;
+    padding-left: 5px;
+}
+
+.ap_s1_label {
+    font-family: Inter-Bold;
+    font-size: 16px;
+    color: black;
+}
+
+#ap_s2 {
+    margin-left: 270px;
+    margin-top: 30px;
+    border-top: black solid 5px;
+    width: 78%;
+    border-left: #B1B1B1 1px solid;
+    border-right: #B1B1B1 1px solid;
+    border-bottom: #B1B1B1 1px solid;
+}
+
+#ap_s2 tr {
+    border: none;
+}
+
+#ap_s2 .row {
+    padding-top: 40px;
+    border-top: #B1B1B1 1px solid;
+}
+
+#ap_s2 th {
+    border: none;
+    text-align: center;
+}
+
+.dtable_td {
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    vertical-align: middle;
+    font-family: Inter-Bold;
+    font-size: 16px;
+    color: #B1B1B1;
+}
+
+.dtable_td_gray {
+    font-family: Inter-Bold;
+    font-size: 16px;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    color: #B1B1B1;
+}
+
+.bi-trash::before {
+    float: left;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+.bi-pencil-square::before {
+    float: left;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+#del_btn {
+    background-color: #ED5D52;
+    margin-top: 10px;
+    border-color: #ED5D52;
+}
+
+@media screen and (min-width: 1700px) {
+    .AccountingPayments {
+        background-color: white;
+        width: 100%;
+        height: 1150px;
+    }
+    
+    #ap_s1 {
+        margin-left: 370px;
+        margin-top: 50px;
+    }
+    
+    #ap_s1_header {
+        margin-left: 40px;
+        margin-top: 40px;
+        font-family: Inter-Bold;
+        font-size: 25px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #ap_s1_search_bar {
+        /* display: inline-block; */
+        margin-top: 40px;
+        margin-right: 70px;
+        float: right;
+    }
+    
+    .ap_s1_input {
+        margin-left: 10px;
+        border-radius: 5px;
+        border: #B1B1B1 solid 1px;
+        height: 35px;
+    }
+    
+    .ap_s1_label {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: black;
+    }
+
+    .ap_s1_input::placeholder {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        padding-left: 5px;
+    }
+    
+    #ap_s2 {
+        margin-left: 370px;
+        margin-top: 30px;
+        border-top: black solid 5px;
+        width: 76.5%;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+    
+    #ap_s2 tr {
+        border: none;
+    }
+    
+    #ap_s2 .row {
+        padding-top: 40px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #ap_s2 th {
+        border: none;
+        text-align: center;
+        font-family: Inter-Bold;
+        font-size: 20px;
+    }
+    
+    .dtable_td {
+        text-align: center;
+        border-left: 0px;
+        border-right: 0px;
+        vertical-align: middle;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+    }
+    
+    .dtable_td_gray {
+        font-family: Inter-Bold;
+        font-size: 20px;
+    }
+    
+    .table-striped>tbody>tr:nth-of-type(odd)>* {
+        color: #B1B1B1;
+    }
+    
+    .bi-trash::before {
+        float: left;
+        margin-top: 4px;
+        font-size: 18px;
+    }
+
+    .bi-pencil-square::before {
+        float: left;
+        margin-top: 4px;
+        font-size: 18px;
+    }
+    
+    #del_btn {
+        background-color: #ED5D52;
+        margin-top: 10px;
+        border-color: #ED5D52;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .AccountingPayments {
+        background-color: white;
+        width: 100%;
+        height: 1300px;
+    }
+    
+    #ap_s1 {
+        margin-left: 370px;
+        margin-top: 50px;
+    }
+    
+    #ap_s1_header {
+        margin-left: 40px;
+        margin-top: 40px;
+        font-family: Inter-Bold;
+        font-size: 30px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #ap_s1_search_bar {
+        /* display: inline-block; */
+        margin-top: 40px;
+        margin-right: 70px;
+        float: right;
+    }
+    
+    .ap_s1_input {
+        margin-left: 10px;
+        border-radius: 5px;
+        border: #B1B1B1 solid 1px;
+        width: 250px;
+        height: 40px;
+    }
+    
+    .ap_s1_label {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: black;
+    }
+
+    .ap_s1_input::placeholder {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: #B1B1B1;
+        padding-left: 5px;
+    }
+    
+    #ap_s2 {
+        margin-left: 370px;
+        margin-top: 30px;
+        border-top: black solid 5px;
+        width: 78.5%;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+
+    .container {
+        max-width: 1440px;
+    }
+    
+    #ap_s2 tr {
+        border: none;
+    }
+    
+    #ap_s2 .row {
+        padding-top: 40px;
+        width: 1400px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #ap_s2 th {
+        border: none;
+        text-align: center;
+        font-family: Inter-Bold;
+        font-size: 25px;
+    }
+    
+    .dtable_td {
+        text-align: center;
+        border-left: 0px;
+        border-right: 0px;
+        vertical-align: middle;
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: #B1B1B1;
+    }
+    
+    .dtable_td_gray {
+        font-family: Inter-Bold;
+        font-size: 25px;
+    }
+    
+    .table-striped>tbody>tr:nth-of-type(odd)>* {
+        color: #B1B1B1;
+    }
+
+    .dtable_td_btn_gray {
+        font-size: 20px;
+        height: 45px;
+        width: 140px;
+    }
+    
+    .bi-trash::before {
+        float: left;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+
+    .bi-pencil-square::before {
+        float: left;
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+    #del_btn {
+        background-color: #ED5D52;
+        margin-top: 10px;
+        border-color: #ED5D52;
+    }
+}

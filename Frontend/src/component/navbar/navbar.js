@@ -24,7 +24,7 @@ const Navbar = () => {
                     </button>
 
                     <button type="button">
-                        <a href="#"> <i class="nav_bi bi-clipboard-data"></i> Accounting</a>
+                        <a href="/accounting-new-payment"> <i class="nav_bi bi-clipboard-data"></i> Accounting</a>
                     </button>
 
                     <button type="button">

@@ -15,6 +15,8 @@ import UserAdmins from './pages/user-admins/user-admins';
 import UserTeachers from './pages/user-teachers/user-teachers';
 import UserStudents from './pages/user-students/user-students';
 import TeachersNew from './pages/user-teachers/teachers-new/teachers-new';
+import AccountingNewPayment from './pages/accounting-new-payment/accounting-new-payment';
+import AccountingPayments from './pages/accounting-payments/accounting-payments';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 
 function App() {
@@ -38,6 +40,8 @@ function App() {
           <Route path="/attendance-students" exact element={<AttendanceStudents />}/>
           <Route path="/attendance-teachers" exact element={<AttendanceTeachers />}/>
           <Route path="/classrooms" exact element={<Classrooms />}/>
+          <Route path="/accounting-new-payment" exact element={<AccountingNewPayment />}/>
+          <Route path="/accounting-payments" exact element={<AccountingPayments />}/>
 
         </Routes>
       </BrowserRouter>
