@@ -22,7 +22,7 @@
 }
 
 #ap_s1_header {
-    margin-left: 40px;
+    /* margin-left: 40px; */
     margin-top: 40px;
     font-family: Inter-Bold;
     font-size: 20px;
@@ -33,7 +33,7 @@
 #ap_s1_search_bar {
     /* display: inline-block; */
     margin-top: 40px;
-    margin-right: 70px;
+    margin-right: 25px;
     float: right;
 }
 
@@ -130,7 +130,7 @@
     }
     
     #ap_s1_header {
-        margin-left: 40px;
+        /* margin-left: 40px; */
         margin-top: 40px;
         font-family: Inter-Bold;
         font-size: 25px;
@@ -141,7 +141,7 @@
     #ap_s1_search_bar {
         /* display: inline-block; */
         margin-top: 40px;
-        margin-right: 70px;
+        margin-right: 25px;
         float: right;
     }
     
@@ -242,7 +242,7 @@
     }
     
     #ap_s1_header {
-        margin-left: 40px;
+        /* margin-left: 40px; */
         margin-top: 40px;
         font-family: Inter-Bold;
         font-size: 30px;
@@ -253,7 +253,7 @@
     #ap_s1_search_bar {
         /* display: inline-block; */
         margin-top: 40px;
-        margin-right: 70px;
+        margin-right: 65px;
         float: right;
     }
     
